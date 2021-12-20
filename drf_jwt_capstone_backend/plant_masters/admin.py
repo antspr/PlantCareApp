@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Plant_Master
+from .models import Plants_Master
 # Register your models here.
-admin.site.register(Plant_Master)
+admin.site.register(Plants_Master)

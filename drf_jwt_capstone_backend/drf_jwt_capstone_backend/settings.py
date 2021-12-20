@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'plants.apps.PlantsConfig',
     'plants_records.apps.PlantsRecordsConfig',
+    'plant_masters.apps.PlantMastersConfig',
+    'gardeners.apps.GardenersConfig',
     
 ]
 
