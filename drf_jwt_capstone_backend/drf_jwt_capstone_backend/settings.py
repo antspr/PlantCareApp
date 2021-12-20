@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'authentication.apps.AuthenticationConfig',
     'corsheaders',
+    'plants.apps.PlantsConfig',
+    'plants_records.apps.PlantsRecordsConfig',
+    
 ]
 
 MIDDLEWARE = [
