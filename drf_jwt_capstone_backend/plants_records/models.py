@@ -12,7 +12,7 @@ User=get_user_model()
 class Plant_Record(models.Model):
     id = models.AutoField(primary_key=True, editable=False)
     plant = models.ForeignKey('plants.Plant', on_delete=models.CASCADE) #How to get FK without user model?
-    date_of_activity = models.DateTimeField() # check formatting for display issues like in previous project.
+    date_of_activity = models.DateTimeField # check formatting for display issues like in previous project.
     activity_notes = models.CharField(max_length=500)
     didWater = models.BooleanField(null=True)
     didChangeDirt = models.BooleanField(null=True)
